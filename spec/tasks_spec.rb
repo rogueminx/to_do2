@@ -31,7 +31,7 @@ describe(Tasks) do
       first_task.save
       expect(Tasks.all()).to(eq([first_task]))
     end
-  end # .all
+  end # save
 
   describe("#description") do
     it("lets you read out the description.") do
